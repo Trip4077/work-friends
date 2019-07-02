@@ -16,7 +16,7 @@ exports.up = function(knex) {
         tbl.int('age').notNullable();
 
         //Array
-        tbl.specificType('friends', 'array');
+        tbl.specificType('friends', 'INT[]');
     });
 };
 

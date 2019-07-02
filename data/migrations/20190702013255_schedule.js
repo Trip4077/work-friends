@@ -7,8 +7,15 @@ exports.up = function(knex) {
     //String
     tbl.string('shift').notNullable();
 
-    //Array
-    tbl.specificType('weeks', 'array');
+    tbl.string('monday').notNullable();
+    tbl.string('tuesday').notNullable();
+    tbl.string('wednesday').notNullable();
+    tbl.string('thursday').notNullable();
+    tbl.string('friday').notNullable();
+    tbl.string('saturday').notNullable();
+    tbl.string('sunday').notNullable();
+
+    tbl.string('start_date').notNullable();
   });
 };
 
