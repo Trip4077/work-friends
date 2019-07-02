@@ -1,7 +1,8 @@
 exports.up = function(knex) {
   return knex.schema.createTable('schedule', tbl => {
-    //ID
+    //IDs
     tbl.increments();
+    tbl.integer('user_id').notNullable();
 
     //String
     tbl.string('shift').notNullable();
