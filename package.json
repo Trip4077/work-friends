@@ -1,0 +1,17 @@
+{
+  "name": "work-friends",
+  "version": "1.0.0",
+  "description": "Social Media for Working Adults",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "keywords": [
+    "API",
+    "NODE",
+    "EXPRESS",
+    "SQL"
+  ],
+  "author": "Bernard Johnson",
+  "license": "ISC"
+}
