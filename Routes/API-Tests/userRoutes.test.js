@@ -76,7 +76,7 @@ describe("USER ROUTES", () => {
         it('should return the specified user', async () => {
             const res = await request(server).get('/users/2');
 
-            expect(res.body.first_name).toBe('Amelia');
+            expect(res.body.first_name).toBe()
         });
     });
 });
