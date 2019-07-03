@@ -7,7 +7,7 @@ beforeEach(() => {
     return db('schedule').truncate();
 });
 
-const schedulea = [
+const schedules = [
     {
         user_id: 2,
         shift: 'morning',
